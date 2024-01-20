@@ -1,0 +1,58 @@
+header {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+header .logo {
+  display: flex;
+  align-items: center;
+}
+header .logo img {
+  margin-right: 12px;
+}
+header .logo p {
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+header nav a {
+  margin-right: 44px;
+  text-decoration: none;
+}
+header .auth {
+  display: flex;
+  align-items: center;
+}
+header .auth a,
+header .auth button {
+  margin-right: 44px;
+  text-decoration: none;
+  color: white;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  border: 1px solid #3AAFA9;
+  cursor: pointer;
+  padding: 5px 5px;
+  border-radius: 8px;
+  background: #3AAFA9;
+}
+header .auth .sign_up {
+  border-radius: 8px;
+  background: #3AAFA9;
+  padding: 5px 10px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+header .auth .user-icon {
+  width: 60px;
+  border-radius: 50%;
+}
+
+/*# sourceMappingURL=header.css.map */
