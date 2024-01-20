@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "parcel src/index.html --open",
-    "build": "parcel build src/index.html",
+    "start": "parcel ./index.html --open",
+    "build": "parcel build ./index.html",
     "sass": "sass --watch src/sass:src/style",
     "server": "json-server --watch db.json -p 8000 -d 300"
   },
